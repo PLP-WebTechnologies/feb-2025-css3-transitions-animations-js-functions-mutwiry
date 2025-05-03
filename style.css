@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.animated-btn {
+  padding: 10px 20px;
+  background-color: #3d93a7;
+  color: white;
+  border: none;
+  transition: background-color 0.4s ease;
+}
+
+.animated-btn:hover {
+  background-color: #2d6c7c;
+}
+
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  margin-top: 20px;
+  position: relative;
+}
+
+.animate-move {
+  animation: slideRight 1s forwards;
+}
+
+@keyframes slideRight {
+  from { left: 0; }
+  to { left: 200px; }
+}
